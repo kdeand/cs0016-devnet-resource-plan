@@ -55,10 +55,12 @@ I modified the evidence links suggested for UC3 and UC4. The original JSON templ
 
 ## Git Evidence
 
-- Initial commit message:
-- Validation commit message:
-- Output of `git log --oneline`:
+- Initial commit message: ```Initial setup```
+- Validation commit message: ```Checks passed, results validated```
+- Output of `git log --oneline`: 
+                                f0fc922 (HEAD -> main, origin/main) Checks passed, results validated
+                                950448f Initial setup
 
 ## AI-Use Disclosure
 
-State the AI tool used, the type of assistance received, what was independently checked, and what you revised.
+I used ChatGPT to compare DevNet resources and improve my explanations. I verified the recommendations using official Cisco pages and corrected the evidence links for UC3 and UC4. I also checked the final selections and validation results against my project files.
