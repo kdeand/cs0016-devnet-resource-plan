@@ -11,35 +11,43 @@
 Selecting the correct DevNet resource ensures that the environment matches the task’s access, privacy, and learning requirements. Validating the resource beforehand also prevents delays, unsafe configuration attempts, and the use of tools that do not provide the required capabilities.
 
 ## Validated Resource Decisions
+---
+## Validated Resource Decisions
 
+---
 
 ### UC1 – Quick Read-Only API Exploration
-Selected resource: Always-On Sandbox
-Most important requirement: The student team needs immediate access to a shared environment for non-administrative API requests without waiting for provisioning.
-Official Cisco evidence: Cisco DevNet Sandbox Documentation
+
+- **Selected resource:** Always-On Sandbox
+- **Most important requirement:** The student team needs immediate access to a shared environment for non-administrative API requests without waiting for provisioning.
+- **Official Cisco evidence:** [Cisco DevNet Sandbox Documentation](https://developer.cisco.com/docs/sandbox/)
 
 Cisco explains that Always-On Sandboxes require no reservation or setup time. These environments are shared, and administrative access is restricted, making this resource appropriate for immediate and safe read-only API exploration.
 
 ### UC2 – Private Configuration Testing
-Selected resource: Reservation Sandbox
-Most important requirement: The team requires a private environment with administrative privileges for testing configuration changes.
-Official Cisco evidence: Cisco DevNet Sandbox Documentation
+
+- **Selected resource:** Reservation Sandbox
+- **Most important requirement:** The team requires a private environment with administrative privileges for testing configuration changes.
+- **Official Cisco evidence:** [Cisco DevNet Sandbox Documentation](https://developer.cisco.com/docs/sandbox/)
 
 Cisco states that Reservation Sandboxes provide private environments and administrative access. They require a reservation, setup time, and a VPN connection, which the development team is prepared to use.
 
 ### UC3 – Guided API Concept Practice
-Selected resource: Learning Lab
-Most important requirement: The beginner needs structured, step-by-step learning material before performing an independent API activity.
-Official Cisco evidence: Cisco DevNet Learning Labs
+
+- **Selected resource:** Learning Lab
+- **Most important requirement:** The beginner needs structured, step-by-step learning material before performing an independent API activity.
+- **Official Cisco evidence:** [Cisco DevNet Learning Labs](https://developer.cisco.com/learning/)
 
 Cisco presents Learning Labs as interactive tutorials that help users learn by doing. This makes a Learning Lab more appropriate than a sandbox because the immediate goal is guided learning rather than direct access to administrative devices.
 
 ### UC4 – Reusable Automation Example
-Selected resource: Code Exchange
-Most important requirement: The developer needs to examine existing network-automation code and use cases before creating a new solution.
-Official Cisco evidence: Cisco Code Exchange
 
-```Cisco Code Exchange provides code projects from the networking community that are curated and maintained by Cisco. These repositories allow developers to study documented automation examples and identify reusable approaches.```
+- **Selected resource:** Code Exchange
+- **Most important requirement:** The developer needs to examine existing network-automation code and use cases before creating a new solution.
+- **Official Cisco evidence:** [Cisco Code Exchange](https://developer.cisco.com/codeexchange)
+
+Cisco Code Exchange provides access to community and Cisco-maintained code repositories. This allows developers to examine existing network-automation examples before designing a new solution.
+
 
 ## AI Evaluation
 
