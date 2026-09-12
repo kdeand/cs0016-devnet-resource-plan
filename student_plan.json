@@ -1,0 +1,39 @@
+{
+  "student_name": "Deanna de la Cruz",
+  "section": "TS31",
+  "ai_tool": "ChatGPT",
+  "entries": [
+    {
+      "use_case_id": "UC1",
+      "selected_resource_type": "always-on-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",  
+      "ai_recommendation_summary": "Use an Always-On Sandbox for immediate, read-only API exploration in a shared Cisco environment.",
+      "verification_status": "verified",
+      "rationale": "Cisco states that Always-On Sandboxes provide immediate access without reservations or setup time. Because they are shared and administrative access is restricted, they are suitable for safe, non-administrative API practice."
+    },
+    {
+      "use_case_id": "UC2",
+      "selected_resource_type": "reservation-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "Use a Reservation Sandbox for private testing that requires administrative access and configuration changes.",
+      "verification_status": "verified",
+      "rationale": "Cisco states that Reservation Sandboxes provide private environments with administrative access. They require a reservation, VPN connection, and provisioning time, all of which the team is prepared to accommodate."
+    },
+    {
+      "use_case_id": "UC3",
+      "selected_resource_type": "learning-lab",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "Use a Learning Lab for structured, step-by-step instruction and guided API practice.",
+      "verification_status": "verified",
+      "rationale": "Cisco describes Learning Labs as interactive tutorials that allow learners to learn by doing. This supports the beginner's need for guided instruction before attempting an independent API activity."
+    },
+    {
+      "use_case_id": "UC4",
+      "selected_resource_type": "code-exchange",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "Use Code Exchange to locate and study existing network-automation projects and reusable code examples.",
+      "verification_status": "verified",
+      "rationale": "Cisco Code Exchange provides access to code projects from the networking community that are curated and maintained by Cisco. This allows the developer to examine documented automation examples before designing a new solution."
+    }
+  ]
+}
