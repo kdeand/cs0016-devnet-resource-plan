@@ -1,4 +1,4 @@
-# IT0123 DevNet Resource Validation Plan
+# CS0016 DevNet Resource Validation Plan
 
 ## Student and Project
 
