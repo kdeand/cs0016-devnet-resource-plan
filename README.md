@@ -12,9 +12,6 @@ Selecting the correct DevNet resource ensures that the environment matches the t
 
 ## Validated Resource Decisions
 ---
-## Validated Resource Decisions
-
----
 
 ### UC1 – Quick Read-Only API Exploration
 
@@ -68,9 +65,12 @@ I modified the evidence links suggested for UC3 and UC4. The original JSON templ
 
 - Initial commit message: ```Initial setup```
 - Validation commit message: ```Checks passed, results validated```
-- Output of `git log --oneline`: logs
-                               : f0fc922 (HEAD -> main, origin/main) Checks passed, results validated
-                               : 950448f Initial setup
+- Output of `git log --oneline`
+        6833be9 (HEAD -> main, origin/main) ReadMe properly formatted
+092ff53 Added check screenshot
+1d3e53f Edited README file
+f0fc922 Checks passed, results validated
+950448f Initial setup
 
 ## AI-Use Disclosure
 
