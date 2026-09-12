@@ -46,20 +46,23 @@ Official Cisco evidence: Cisco Code Exchange
 I accepted the AI recommendation to use a Reservation Sandbox for UC2. The scenario requires private access, administrative privileges, and permission to test configuration changes. I independently checked the Cisco DevNet Sandbox documentation and confirmed that Reservation Sandboxes are private, provide administrative access, and generally require a reservation, VPN connection, and setup time.
 
 I modified the evidence links suggested for UC3 and UC4. The original JSON template used the general Sandbox documentation for every use case, but that page did not provide the most direct evidence for Learning Labs or Code Exchange. I replaced those links with the official Cisco DevNet Learning Labs page for UC3 and the official Cisco Code Exchange page for UC4.
+
 ## Validation Evidence
+
+![alt text](image.png)
 
 - Validator result: PASS
 - Command used: 
         ```python3 validate_plan.py```
-- Official Cisco pages reviewed:
+- Official Cisco pages reviewed: https://developer.cisco.com/docs/sandbox/, https://developer.cisco.com/codeexchange/about/
 
 ## Git Evidence
 
 - Initial commit message: ```Initial setup```
 - Validation commit message: ```Checks passed, results validated```
-- Output of `git log --oneline`: 
-                                f0fc922 (HEAD -> main, origin/main) Checks passed, results validated
-                                950448f Initial setup
+- Output of `git log --oneline`: logs
+                               : f0fc922 (HEAD -> main, origin/main) Checks passed, results validated
+                               : 950448f Initial setup
 
 ## AI-Use Disclosure
 
